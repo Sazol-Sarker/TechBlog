@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&family=Ubuntu+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&family=Roboto&family=Ubuntu&family=Ubuntu+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+:root {
+    --main-bg-color: brown;
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Ubuntu', sans-serif;
+    --font3: 'Ubuntu Condensed', sans-serif;
+    --font4: 'Anek Bangla', sans-serif;
+    --font5: 'Montserrat', sans-serif;
+
+}
+
+.font1{
+    font-family: var(--font1);
+}
+
+.font2{
+    font-family: var(--font2);
+}
+
+.font3{
+    font-family: var(--font3);
+}
+
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.form-input {
+    padding: 7px 3px;
+    padding-left: 5px;
+    font-size: 21px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin: 0px 14px;
+    font-family: var(--font1);
+}
+
+.btn {
+    font-size: 20px;
+    font-family: var(--font1);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 3px 7px;
+    padding: 8px 10px;
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    color: white;
+    background: var(--main-bg-color);
+    transition: all 0.3s ease-in-out;
+}
