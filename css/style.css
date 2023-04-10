@@ -61,7 +61,8 @@
 
 .content {
 
-    height: 450px;
+    /* height: 450px; */
+    height: 100%;
     display: flex;
     margin-top: 8px;
     /* background-color: green; */
