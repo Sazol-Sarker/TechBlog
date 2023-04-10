@@ -133,10 +133,17 @@
     align-self: center;
     padding: 1px 22px;
 }
+.home-article-content a{
+    text-decoration: none;
+    color: purple;
+}
+.home-article-content span{
+    line-height: 1.5;
+}
 
 .footer {
 
-    height: 50px;
+    height: 42px;
     background: purple;
     /* background-color: rgb(201, 105, 105); */
     display: flex;
@@ -145,6 +152,6 @@
     color: white;
     justify-content: center;
     font-family: var(--font5);
-
+    max-width: 100vw;
 
 }
