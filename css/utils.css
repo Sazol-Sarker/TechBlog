@@ -56,6 +56,13 @@
     font-family: var(--font1);
 }
 
+.form-box input,textarea{
+    width: 30vw;
+    padding: 5px 5px;
+    margin: 5px 0px;
+}
+
+
 .btn {
     font-size: 20px;
     font-family: var(--font1);
